@@ -59,9 +59,9 @@ function dotime(){
 
 	var hours2, mins2, secs2
 
-	hours2 = Math.floor(255 * hours / 24);
-	mins2 = Math.floor(255 * mins / 60);
-	secs2 = Math.floor(255 * secs / 60);
+	hours2 = Math.floor(255 * hours / 23);
+	mins2 = Math.floor(255 * mins / 59);
+	secs2 = Math.floor(255 * secs / 59);
 
 	if (hours < 10){hours = "0" + hours};
 	if (mins < 10){mins = "0" + mins};
